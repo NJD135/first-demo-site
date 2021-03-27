@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: rgb(37, 40, 58);
+    color: rgb(29, 62, 105);
+}
+#containAll {
+    position: relative;
+}
+#containAll img {
+    display: block;
+    margin: 50px auto 20px;
+    width: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 50%;
+}
+.container h1 {
+    color: rgb(2, 161, 182);
+    color: rgb(92, 182, 255);
+    font-size: 4.8rem;
+    margin-top: 80px;
+    text-align: center;
+    font-weight: normal;
+}
+.container h2 {
+    text-align: center;
+    color: rgb(34, 185, 178);
+    font-size: 2.8rem;
+    font-weight: normal;
+}
+.container h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgb(13, 108, 146);
+}
+section#top {
+    padding-bottom: 200px;
+}
+#grad {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(211, 248, 255), rgb(255, 255, 255));
+    background-image: -moz-linear-gradient(to bottom, rgb(211, 248, 255), rgb(255, 255, 255));
+    background-image: -o-linear-gradient(to bottom, rgb(211, 248, 255), rgb(255, 255, 255));
+    background-image: -webkit-linear-gradient(to bottom, rgb(211, 248, 255), rgb(255, 255, 255));
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: block;
+    z-index: -1;
+}
+#mainContent {
+    line-height: 1.8rem;
+    margin: 0 auto 80px;
+    width: 70%;
+}
+footer {
+    background-color: rgb(91, 91, 207);
+}
+footer ul {
+    margin: 0 auto;
+    width: 70%;
+    padding: 0;
+    list-style: none;
+}
+footer li {
+    display: inline;
+    margin: 0;
+}
+footer a {
+    font-size: 1em;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+}
+a:link, a:visited {
+    color: rgb(199, 219, 255);
+}
+a:hover, a:active {
+    color: white;
+    background-color: rgb(83, 66, 145);
+}
+li span {
+    font-size: .7rem;
+    color: rgb(128, 202, 221);
+}
+/*things I hardly understand below*/
+@media screen and (min-width: 601px) {
+    .container h1 {
+        font-size: 4.8ren;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .container h1 {
+        font-size: 2.8rem;
+    }
+}
+@media screen and (min-width: 601px) {
+    .container h2 {
+        font-size: 3.2rem;
+    }
+}
+  
+@media screen and (max-width: 600px) {
+    .container h2 {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    footer a, li span {
+        display: list-item;
+        text-align: center;
+    }
+}
